@@ -1,0 +1,37 @@
+{
+  "name": "@kelysty/tsconfig",
+  "version": "1.0.0",
+  "description": "Kelysty UI TypeScript configuration",
+  "license": "MIT",
+  "author": "Kelysty",
+  "contributors": [
+    "Ivan Postarnak"
+  ],
+  "keywords": [
+    "TypeScript",
+    "config"
+  ],
+  "main": "index.js",
+  "files": [
+    "tsconfig.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kelysty/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kelysty/tsconfig.git.git/issues"
+  },
+  "homepage": "https://github.com/Kelysty/tsconfig.git.git#readme",
+  "scripts": {
+    "prepare": "husky install",
+    "publish": "npm publish",
+    "publish:git": "npm publish --registry=https://npm.pkg.github.com --scope=Kelysty/tsconfig",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "husky": "^8.0.3"
+  }
+}
